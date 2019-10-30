@@ -14,11 +14,11 @@ app = QApplication(sys.argv)
 
 # 3. Create an instance of your application's GUI
 window = QWidget()
-window.setWindowTitle('PyQt5 App')
-window.setGeometry(100, 100, 280, 80)
+window.setWindowTitle('Hello world in a PyQt5 App')
+window.setGeometry(200, 200, 540, 160)
 window.move(60, 15)
-helloMsg = QLabel('<h1>Hello World!</h1>', parent=window)
-helloMsg.move(60, 15)
+helloMsg = QLabel('<h3>Hello, my darling!</h3>', parent=window)
+helloMsg.move(200,80)
 
 # 4. Show your application's GUI
 window.show()
